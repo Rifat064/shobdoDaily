@@ -1,0 +1,52 @@
+:root {
+    /* System / Navy Theme (Default) */
+    --color-bg: #0A192F;
+    --color-surface: #112240;
+    --color-surface-hover: #233554;
+    --color-text-primary: #CCD6F6;
+    --color-text-secondary: #8892B0;
+    --color-accent: #64FFDA;
+    --color-accent-hover: #4CD1AD;
+    --color-danger: #FF6B6B;
+    
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.2);
+    --shadow-md: 0 8px 16px rgba(0,0,0,0.3);
+    --shadow-glow: 0 0 15px rgba(100, 255, 218, 0.2);
+    
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    
+    --font-primary: 'Inter', -apple-system, sans-serif;
+    --font-bangla: 'Noto Sans Bengali', 'Hind Siliguri', sans-serif;
+}
+
+[data-theme="cream"] {
+    /* Warm Cream Theme */
+    --color-bg: #FDFBF7;
+    --color-surface: #FFFFFF;
+    --color-surface-hover: #F2EFE9;
+    --color-text-primary: #2C2C2C;
+    --color-text-secondary: #5C5C5C;
+    --color-accent: #D4A373;
+    --color-accent-hover: #B8895E;
+    
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+    --shadow-md: 0 12px 24px rgba(0,0,0,0.08);
+    --shadow-glow: 0 0 15px rgba(212, 163, 115, 0.2);
+}
+
+[data-theme="white"] {
+    /* White Theme */
+    --color-bg: #F4F4F5;
+    --color-surface: #FFFFFF;
+    --color-surface-hover: #FAFAFA;
+    --color-text-primary: #18181B;
+    --color-text-secondary: #71717A;
+    --color-accent: #3B82F6;
+    --color-accent-hover: #2563EB;
+    
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.1);
+    --shadow-glow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
